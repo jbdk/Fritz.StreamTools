@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Fritz.Chatbot.Commands
 {
-	public class AttentionCommand : IBasicCommand., IDisposable
+	public class AttentionCommand : IBasicCommand, IDisposable
 	{
 		private readonly IConfiguration Configuration;
 
